@@ -10,7 +10,7 @@ func main() {
 		c64 complex64 = -5 + 12i
 	)
 	fmt.Println(u8, i8, f32, c64)
-	fmt.Printf("type=%T value=%v", u8, u8)
+	fmt.Printf("variable=%T value=%v", u8, u8)
 	fmt.Println(1+1, 2+2)
 	fmt.Println("1 + 1 =", 1+1)
 	fmt.Println("10 - 1 =", 10-1)
